@@ -35,7 +35,7 @@ app.post("/",function(req,res)
   const options = {
 
   method:"POST",
-  auth:"leon1:99e4508e66562eae2242b87c31cd927d-us6"
+  auth:""
   }
 
   const request = https.request(url,options,function(response)
@@ -74,6 +74,3 @@ app.listen(process.env.PORT || 3000,function()
 {
   console.log("server is running at port 3000");
 })
-
-//99e4508e66562eae2242b87c31cd927d-us6
-//7b254221ee
